@@ -1,4 +1,3 @@
-#warning "Allow waring"
 #include <stdio.h>
 
 /**
@@ -13,7 +12,7 @@ int main(void)
         long int c;
         long long int d;
         float e;
-
+	#warning anything
         printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
         printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(b));
         printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
