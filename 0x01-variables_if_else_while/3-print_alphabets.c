@@ -21,12 +21,12 @@ int main(void)
 	}
 
 	x = 0;
-	a = "A";
+	a = 'A';
 
 	while (x < 26)
 	{
 		putchar(a++);
-		x++
+		x++;
 	}
 
 	putchar('\n');
