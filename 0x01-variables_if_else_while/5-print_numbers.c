@@ -15,10 +15,13 @@ int main(void)
 	while (x < 10)
 	{
 		if (x < 10)
-			puts(x++);
+		{
+			printf("%d", x);
+			x++;
+		}
 	}
 
-	puts('\n');
+	printf("\n");
 
 	return (0);
 }
