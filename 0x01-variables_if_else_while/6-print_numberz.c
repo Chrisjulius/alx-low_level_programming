@@ -14,11 +14,8 @@ int main(void)
 
 	while (x < 10)
 	{
-		if (x < 10)
-		{
-			putchar((char)x);
-			x++;
-		}
+		putchar(48 + x);
+		x++;
 	}
 
 	putchar('\n');
