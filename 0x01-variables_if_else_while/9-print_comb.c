@@ -16,18 +16,18 @@ int main(void)
 	{
 		if (x == 9)
 		{
-			putchar(48 + x);
+			putchar(48 + x\n);
 			x++;
 		}
 		else
 		{
 			putchar(48 + x);
 			putchar(',');
+			putchar(' ');
 			x++;
 		}
 	}
 
-	putchar('\n');
 
 	return (0);
 }
