@@ -14,20 +14,15 @@ int main(void)
 
 	while (x < 10)
 	{
-		if (x == 9)
+		putchar(48 + x);
+
+		if (x != 9)
 		{
-			putchar(48 + x\n);
-			x++;
-		}
-		else
-		{
-			putchar(48 + x);
 			putchar(',');
 			putchar(' ');
-			x++;
 		}
+		x++;
 	}
-
 
 	return (0);
 }
