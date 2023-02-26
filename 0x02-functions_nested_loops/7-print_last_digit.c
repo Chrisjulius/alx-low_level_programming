@@ -8,12 +8,11 @@ int print_last_digit(int n)
 {
 	int abs;
 	int last_digit1;
-	int final_digit;
 
 	if (n >= 0)
 	{
 		last_digit1 = n % 10;
-		last_digit1 += last_digit * 10
+		last_digit1 += last_digit1 * 10
 		return (last_digit1);
 	}
 	else
@@ -21,7 +20,7 @@ int print_last_digit(int n)
 		n %= -10;
 		abs = n * -2;
 		last_digit1 = n + abs;
-		last_digit1 += last_digit * 10;
+		last_digit1 += last_digit1 * 10;
 		return (last_digit1);
 	}
 }
