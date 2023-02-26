@@ -1,10 +1,10 @@
 #include "main.h"
 /**
-  * int_abs - absolute numbers
+  * _abs - absolute numbers
   * @n: value to compute
   * Return: Always 0 (success).
   */
-int int_abs(int n)
+int _abs(int n)
 {
 	int abs;
 
