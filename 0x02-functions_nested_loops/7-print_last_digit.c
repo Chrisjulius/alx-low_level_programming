@@ -7,16 +7,22 @@
 int print_last_digit(int n)
 {
 	int abs;
+	int last_digit1;
+	int final_digit;
 
 	if (n >= 0)
 	{
-		return (n % 10);
+		last_digit1 = n % 10;
+		last_digit1 += last_digit * 10
+		return (last_digit1);
 	}
 	else
 	{
 		n %= -10;
 		abs = n * -2;
-		return (n + abs);
+		last_digit1 = n + abs;
+		last_digit1 += last_digit * 10;
+		return (last_digit1);
 	}
 }
 
