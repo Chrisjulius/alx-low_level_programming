@@ -6,8 +6,6 @@
   */
 int print_last_digit(int n)
 {
-	int abs;
-	int last_digit1;
 
 	if (n >= 0)
 	{
@@ -16,7 +14,7 @@ int print_last_digit(int n)
 	else
 	{
 		n %= -10;
-		n *= -1
+		n *= -1;
 		return (n);
 	}
 }
