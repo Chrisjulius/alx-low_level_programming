@@ -18,7 +18,8 @@ void jack_bauer(void)
 			{
 				while (place2m < 58)
 				{
-					_putchar(place1h + place2h);
+					_putchar(place1h);
+					_putchar(place2h);
 					_putchar(column);
 					_putchar(place1m);
 					_putchar(place2m);
