@@ -16,13 +16,13 @@ void more_numbers(void)
 		{
 			if (j >= 10)
 			{
-				putchar(49);
+				_putchar(49);
 				if (j == 10)
 					num = 48;
 			}
-			putchar(num++);
+			_putchar(num++);
 		}
-		putchar('\n');
+		_putchar('\n');
 		num = 48;
 	}
 }
