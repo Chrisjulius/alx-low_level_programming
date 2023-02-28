@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
   * main - entry point
   * prints fizzbuzz
@@ -20,9 +21,9 @@ int main(void)
 			printf("%d ", i);
 
 		if (i != 100)
-			putchar(' ');
+			printf(" ");
 	}
-	putchar('\n');
+	printf("\n");
 
 	return (0);
 }
