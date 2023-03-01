@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - update the value of a variable with pointer.
+ * @n: variable address reference.
  *
  * Return: void
  */
