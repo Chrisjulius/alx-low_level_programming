@@ -13,7 +13,7 @@ int main(void)
 	last = 1, fib = 2, sum = fib;
 	while (last + fib < 4000000)
 	{
-		fib += last
+		fib += last;
 		if (fib % 2 == 0)
 			sum += fib
 		last = fib - last;
