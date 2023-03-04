@@ -21,7 +21,7 @@ int main(void)
 		{
 			fib += last;
 			last = fib - last;
-			printf(", %d", fib);
+			printf(", %ld", fib);
 		}
 		i++;
 	}
