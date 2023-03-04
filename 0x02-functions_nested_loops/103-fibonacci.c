@@ -15,7 +15,7 @@ int main(void)
 	{
 		fib += last;
 		if (fib % 2 == 0)
-			sum += fib
+			sum += fib;
 		last = fib - last;
 	}
 	printf("%ld\n", sum);
