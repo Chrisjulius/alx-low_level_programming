@@ -7,15 +7,16 @@
   */
 int main(void)
 {
-	int i, last, fib;
+	int i;
+	long last, fib;
 
 	i = 0, last = 1, fib = 2;
 	while (i < 50)
 	{
 		if (i == 0)
-			printf("%d", last);
+			printf("%ld", last);
 		else if (i == 1)
-			printf(", %d", fib);
+			printf(", %ld", fib);
 		else
 		{
 			fib += last;
