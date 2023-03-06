@@ -17,7 +17,7 @@ void print_rev(char *s)
 	{
 		if (s[check] != '\0')
 		{
-			s[idx++] = s[check]
+			s[idx++] = s[check];
 		}
 		check--;
 	}
