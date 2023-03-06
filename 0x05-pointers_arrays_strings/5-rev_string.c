@@ -4,7 +4,7 @@
  * @s: string to manipulate
  * Return: void
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int idx = -1;
 	int check = 0;
