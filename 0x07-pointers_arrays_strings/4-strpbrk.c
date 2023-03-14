@@ -5,7 +5,7 @@
   * @accept: string to search
   * Return: returns a pointer to the matching byte in s
   */
-char _strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i;
 
@@ -14,7 +14,7 @@ char _strpbrk(char *s, char *accept)
 		for (i = 0; accept[i]; i++)
 		{
 			if (*s == accept[i])
-				return (&s);
+				return (s);
 		}
 		s++;
 	}
