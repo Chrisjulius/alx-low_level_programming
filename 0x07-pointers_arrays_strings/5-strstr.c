@@ -5,7 +5,7 @@
   * @needle: string to search for in haystack
   * Return: returns a pointer to the beginning of the located substring
   */
-char *_strstr(char *haystack, *needle)
+char *_strstr(char *haystack,char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
 	{
